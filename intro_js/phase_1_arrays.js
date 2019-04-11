@@ -36,6 +36,6 @@ Array.prototype["transpose"] = function () {
   return new_arr;
 }
 
-arr1 = new Array([1,2,-1],[3,-2, 0])
-console.log(arr1.transpose())
+// arr1 = new Array([1,2,-1],[3,-2, 0])
+// console.log(arr1.transpose())
 
