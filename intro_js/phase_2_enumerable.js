@@ -13,14 +13,14 @@ Array.prototype["myMap"] = function (callback) {
 
 Array.prototype["myReduce"] = function (callback, initialValue=null) {
   if (initialValue === null) {
-    let result = this[0]
+    let result = this[0];
     this.slice(1).myEach((ele) => { result = callback(result, ele) });
   }
   else {
     let result = initialValue;
     this.myEach( (ele) => {result = callback(result, ele)});
   }
-  return result
+  return result;
 }
 
 
